@@ -4,4 +4,3 @@ for number in range(100):
         print("{}{}, ".format(int(number / 10), number % 10), end="")
     else:
         print("{}{}".format(int(number / 10), number % 10))
- 
